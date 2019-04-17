@@ -1,0 +1,5 @@
+- hosts: jumpbox
+  become: yes
+  gather_facts: false
+  roles:
+   -  osp-setup
